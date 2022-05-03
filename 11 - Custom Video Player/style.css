@@ -42,7 +42,7 @@ body {
   width: 100%;
 }
 
-.player__button {
+.player__button, .fullscreen {
   background: none;
   border: 0;
   line-height: 1;
@@ -52,6 +52,10 @@ body {
   padding: 0;
   cursor: pointer;
   max-width: 50px;
+}
+
+.fullscreen {
+  font-size: 20px;
 }
 
 .player__button:focus {
